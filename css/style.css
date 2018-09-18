@@ -1,12 +1,31 @@
-
-.pf-text-welcome {
-    color: #9c9c9c;
-    font-family: 'Montserrat', sans-serif;
+.pf-welcome-box {
+    position: absolute;
+    bottom: 8em;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%);
 }
 
 .pf-text-header {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 4em;
+    position: relative; 
+    background: #ffffff;
+    padding-left: 5px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 75px;
+}
+
+.pf-text-city {
+    color: #9c9c9c;
+    font-family: 'Montserrat', sans-serif;
+    position: relative; 
+    background: #ffffff;
+    margin-left: 30%;
+    margin-right: 30%;
+    left: -20%;
 }
 
 .pf-top-vh {
@@ -20,13 +39,6 @@
     background-repeat: no-repeat;
     background-image: url(../images/scroller.jpg);
     height: 100%;
-}
-
-.pf-topright-welcome-box {
-    margin-top: 125px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
 }
 
 .pf-projects-vh {
